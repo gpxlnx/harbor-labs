@@ -14,14 +14,14 @@
 Faça o Download do Harbor:
 
 ```
-$ wget https://github.com/goharbor/harbor/releases/download/v2.6.0/harbor-online-installer-v2.6.0.tgz
+$ wget https://github.com/goharbor/harbor/releases/download/v2.8.0/harbor-online-installer-v2.8.0.tgz
 
 ```
 
 Descompacte o arquivo:
 
 ```
-$ tar xzvf harbor-online-installer-v2.6.0.tgz
+$ tar xzvf harbor-online-installer-v2.8.0.tgz
 ```
 
 Gere os certificados:
@@ -94,7 +94,7 @@ sudo ./prepare
 Execute a criação do ambiente com o examinador Trivy:
 
 ```
-sudo ./install.sh --with-trivy
+sudo ./install.sh --with-trivy --with-notary --with-chartmuseum
 ```
 
 Mapeie no seu /etc/hosts a seguinte linha:
