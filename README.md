@@ -71,6 +71,10 @@ Realize o clone do repositório harbor-labs e copie o arquivo harbor.yml para o 
 
 ```
 git clone https://github.com/gpxlnx/harbor-labs.git
+
+Ou
+
+copiar o arquivo de exemplo harbor.yml.tmpl e editar os itens desejados
 ```
 
 ```
@@ -105,4 +109,4 @@ https://registry.gpxlnx.me
 
 usuário: admin
 
-senha: qwe123
+senha: teste123@
